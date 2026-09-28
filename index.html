@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Power Rangers Mega Force</title>
+	<link rel="stylesheet" href="ranger.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="https://freepngimg.com/download/power_rangers/11-2-power-rangers-png-file.png">
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .glow {
+            box-shadow:0 0 20px rgba(239, 68, 68, 0.35);
+        }
+
+        .blue-glow {
+            box-shadow:0 0 20px rgba(59, 130, 246, 0.35);
+        }
+
+        .hero-bg {
+            background:url("images/hero.png");
+            background-size:cover;
+            background-position:center;
+        }
+		.content{
+			background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPtkJsmJwUqxhtLJ6n7Bx3OWfbauUOgGQSMEeaxzKpXg&s=10')
+			background-size:100% 100%;
+		}
+    </style>
+</head>
+
+<body class="bg-[#02070d] text-white">
+	<div class="progress"></div>
+<header class="fixed top-0 left-0 w-full z-50 bg-[#02070d]/95 backdrop-blur-md border-b border-red-600">
+
+    <nav class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div>
+            <img src="https://static.wikia.nocookie.net/powerrangers/images/7/78/Power_Rangers_Megaforce_logo.png/revision/latest?cb=20210315201619" class="w-28">
+        </div>
+        <div class="hidden lg:flex items-center gap-8 text-sm">
+
+            <a href="#" class="hover:text-red-500 transition">
+                Home
+            </a>
+
+            <a href="#about" class="hover:text-red-500 transition">
+                About
+            </a>
+
+            <a href="#team" class="hover:text-red-500 transition">
+                Team
+            </a>
+
+            <a href="#episodes" class="hover:text-red-500 transition">
+                Episodes
+            </a>
+
+            <a href="#gallery" class="hover:text-red-500 transition">
+                Gallery
+            </a>
+
+            <a href="#villain" class="hover:text-red-500 transition">
+                Villains
+            </a>
+
+            <a href="#news" class="hover:text-red-500 transition">
+                News
+            </a>
+
+            <a href="#contact" class="hover:text-red-500 transition">
+                Contact
+            </a>
+
+        </div>
+
+        <a href="#contact"
+           class="hidden md:block bg-red-600 hover:bg-red-700 px-6 py-3 font-bold italic skew-x-[-10deg] transition">
+            <span class="inline-block skew-x-[10deg]">
+                 JOIN THE FORCE
+            </span>
+        </a>
+
+    </nav>
+
+</header>
+
+<section class="hero-bg min-h-screen flex items-center pt-24">
+
+    <div class="max-w-7xl mx-auto px-6 w-full">
+
+        <div class="max-w-2xl text">
+
+            <p class="text-red-500 tracking-[7px] font-bold mb-5">
+                TOGETHER WE ARE
+            </p>
+
+            <h2 class="text-5xl md:text-7xl font-black italic leading-none">
+                POWER RANGERS
+            </h2>
+
+            <h3 class="text-5xl md:text-7xl font-black italic text-red-500 mt-2">
+                MEGA FORCE
+            </h3>
+
+            <p class="text-gray-300 mt-7 max-w-lg leading-7">
+                Five Rangers. One Mission. One powerful team.
+                Protect Earth from the forces of evil and defend
+                the future of humanity.
+            </p>
+
+            <div class="flex gap-4 mt-8">
+
+                <a href="#episodes"
+                   class="bg-red-600 hover:bg-red-700 px-7 py-4 font-bold transition glow">
+                     WATCH TRAILER
+                </a>
+
+                <a href="#about"
+                   class="border border-white px-7 py-4 font-bold hover:bg-white hover:text-black transition">
+                    EXPLORE
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="about" class="py-24 border-b border-gray-800">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid lg:grid-cols-3 gap-10 items-center">
+
+            <div class="ani">
+
+                <p class="text-red-500 font-bold tracking-[5px]">
+                    ABOUT
+                </p>
+
+                <h2 class="text-4xl font-black mt-3">
+                    THE MEGA FORCE
+                </h2>
+
+                <p class="text-gray-400 mt-6 leading-8">
+                    When Earth is threatened by powerful enemies,
+                    five ordinary teenagers are chosen to become
+                    the Power Rangers.
+                </p>
+
+                <p class="text-gray-400 mt-4 leading-8">
+                    Together they learn to control their powers,
+                    work as a team and protect the planet using
+                    the legendary Mega Force.
+                </p>
+
+                <button class="mt-7 border-2 border-red-500 text-red-500 px-7 py-3 hover:bg-red-500 hover:text-white transition">
+                    LEARN MORE →
+                </button>
+
+            </div>
+
+            <div class="lg:col-span-2 ani2">
+
+                <div class="relative overflow-hidden border border-red-500 glow">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv-QuJebu_7va9a9BgImt8bOqrco9iVMGAYa1qjXoiFQ&s=10"
+                        class="w-full h-[350px] object-cover"
+                        alt="Mega Force">
+
+                    <div class="absolute bottom-0 left-0 w-full bg-black/70 p-6">
+
+                        <h3 class="text-2xl font-bold">
+                            THE JOURNEY BEGINS
+                        </h3>
+
+                        <p class="text-gray-300 mt-2">
+                            Five heroes. One destiny. One Mega Force.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="grid grid-cols-3 gap-4 mt-12 max-w-2xl">
+
+            <div class="text-center">
+                <h3 class="text-3xl font-black text-red-500">
+                    5
+                </h3>
+
+                <p class="text-xs text-gray-400">
+                    RANGERS
+                </p>
+            </div>
+
+            <div class="text-center">
+                <h3 class="text-3xl font-black text-blue-500">
+                    1
+                </h3>
+
+                <p class="text-xs text-gray-400">
+                    MEGAZORD
+                </p>
+            </div>
+
+            <div class="text-center">
+                <h3 class="text-3xl font-black text-yellow-400">
+                    1
+                </h3>
+
+                <p class="text-xs text-gray-400">
+                    MISSION
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="team" class="py-24">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <p class="text-red-500 font-bold tracking-[5px] ani">
+            THE TEAM
+        </p>
+
+        <h2 class="text-4xl font-black mt-3 mb-12 ani">
+            MEET THE <span class="text-red-500 italic">POWER RANGERS</span>
+        </h2>
+
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
+
+            <div class="bg-[#0b1118] border border-red-500 overflow-hidden hover:-translate-y-2 transition duration-300 glow card">
+
+                <div class="h-64 bg-gradient-to-b from-red-900 to-black flex items-center justify-center">
+
+                    <div class="text-7xl">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxyxvTd4BfEh0nwF0aKIbluhr5cR52sAK1M320zPc7bQ&s=10">
+                    </div>
+
+                </div>
+
+                <div class="p-5 text-center">
+
+                    <h3 class="font-black text-red-500 text-xl">
+                        RED RANGER
+                    </h3>
+
+                    <p class="text-gray-400 text-sm mt-2">
+                        Brave, strong and always leads the team.
+                    </p>
+
+                    <button class="mt-5 border border-red-500 px-4 py-2 text-xs hover:bg-red-500 transition">
+                        VIEW PROFILE →
+                    </button>
+
+                </div>
+
+            </div>
+            <div class="bg-[#0b1118] border border-blue-500 overflow-hidden hover:-translate-y-2 transition duration-300 blue-glow card">
+
+                <div class="h-64 bg-gradient-to-b from-blue-900 to-black flex items-center justify-center">
+
+                    <div class="text-7xl">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTihvvXFuaAvTdLEbcKMdiz2JxsE7p1He-xcRtMXm40dg&s=10">
+                    </div>
+
+                </div>
+
+                <div class="p-5 text-center">
+
+                    <h3 class="font-black text-blue-500 text-xl">
+                        BLUE RANGER
+                    </h3>
+
+                    <p class="text-gray-400 text-sm mt-2">
+                        Smart, brave and highly strategic.
+                    </p>
+
+                    <button class="mt-5 border border-blue-500 px-4 py-2 text-xs hover:bg-blue-500 transition">
+                        VIEW PROFILE →
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="bg-[#0b1118] border border-yellow-500 overflow-hidden hover:-translate-y-2 transition duration-300 card">
+
+                <div class="h-64 bg-gradient-to-b from-yellow-900 to-black flex items-center justify-center">
+
+                    <div class="text-7xl">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa4EEdsQQC-AstJyNTu9n2vbNCwXxiBTr4rwZ2ZaGefQ&s=10">
+                    </div>
+
+                </div>
+
+                <div class="p-5 text-center">
+
+                    <h3 class="font-black text-yellow-400 text-xl">
+                        YELLOW RANGER
+                    </h3>
+
+                    <p class="text-gray-400 text-sm mt-2">
+                        Quick thinking and never gives up.
+                    </p>
+
+                    <button class="mt-5 border border-yellow-500 px-4 py-2 text-xs hover:bg-yellow-500 hover:text-black transition">
+                        VIEW PROFILE →
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="bg-[#0b1118] border border-pink-500 overflow-hidden hover:-translate-y-2 transition duration-300 card">
+
+                <div class="h-64 bg-gradient-to-b from-pink-900 to-black flex items-center justify-center">
+
+                    <div class="text-7xl">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6X_NqCLwUyIf81G1Oe6uxJC9XshnwcGSGLgk4_08xjg&s=10">
+                    </div>
+
+                </div>
+
+                <div class="p-5 text-center">
+
+                    <h3 class="font-black text-pink-500 text-xl">
+                        PINK RANGER
+                    </h3>
+
+                    <p class="text-gray-400 text-sm mt-2">
+                        Kind, powerful and brings hope.
+                    </p>
+
+                    <button class="mt-5 border border-pink-500 px-4 py-2 text-xs hover:bg-pink-500 transition">
+                        VIEW PROFILE →
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="bg-[#0b1118] border border-green-500 overflow-hidden hover:-translate-y-2 transition duration-300 card">
+
+                <div class="h-64 bg-gradient-to-b from-green-900 to-black flex items-center justify-center">
+
+                    <div class="text-7xl">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDyi8dhW8wC-1QVXngfnjIavl3mV8J_I94_iDO1mcaDA&s=10">
+                    </div>
+
+                </div>
+
+                <div class="p-5 text-center">
+
+                    <h3 class="font-black text-green-500 text-xl">
+                        GREEN RANGER
+                    </h3>
+
+                    <p class="text-gray-400 text-sm mt-2">
+                        Reliable, calm and always ready.
+                    </p>
+
+                    <button class="mt-5 border border-green-500 px-4 py-2 text-xs hover:bg-green-500 transition">
+                        VIEW PROFILE →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="episodes" class="py-24 bg-[#050b12] border-y border-gray-800">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="flex justify-between items-end mb-12 ani">
+
+            <div>
+
+                <p class="text-red-500 tracking-[5px] font-bold">
+                    EPISODES
+                </p>
+
+                <h2 class="text-4xl font-black mt-3">
+                    FEATURED EPISODES
+                </h2>
+
+            </div>
+
+            <a href="#" class="text-red-500 hidden md:block">
+                VIEW ALL →
+            </a>
+
+        </div>
+
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+
+            <div class="bg-[#0b1118] border border-gray-700 hover:border-red-500 transition card">
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdS2he9rjDduecdv1ScsmO01-1_0XTy06Zc2XrhqucPA&s=10"
+                    class="w-full h-48 object-cover">
+
+                <div class="p-5">
+
+                    <span class="text-red-500 text-xs font-bold">
+                        EPISODE 01
+                    </span>
+
+                    <h3 class="font-bold mt-2">
+                        THE RANGERS ASSEMBLE
+                    </h3>
+
+                    <p class="text-gray-500 text-xs mt-2">
+                        Season 1 • Episode 1
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="bg-[#0b1118] border border-gray-700 hover:border-blue-500 transition card">
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIQbIva_JZ42rXH5QfsO-hG_dFBESLKWHsMC_0XJcECg&s=10"
+                    class="w-full h-48 object-cover">
+
+                <div class="p-5">
+
+                    <span class="text-blue-500 text-xs font-bold">
+                        EPISODE 02
+                    </span>
+
+                    <h3 class="font-bold mt-2">
+                        THE MEGA VOYAGER
+                    </h3>
+
+                    <p class="text-gray-500 text-xs mt-2">
+                        Season 1 • Episode 2
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="bg-[#0b1118] border border-gray-700 hover:border-yellow-500 transition card">
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA84MMi-VpOPSV1X3_frDLolQgsJpURnZydD00DESyxw&s=10"
+                    class="w-full h-48 object-cover">
+
+                <div class="p-5">
+
+                    <span class="text-yellow-400 text-xs font-bold">
+                        EPISODE 03
+                    </span>
+
+                    <h3 class="font-bold mt-2">
+                        THE DAI SHI THREAT
+                    </h3>
+
+                    <p class="text-gray-500 text-xs mt-2">
+                        Season 1 • Episode 3
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="bg-[#0b1118] border border-gray-700 hover:border-green-500 transition card">
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9aSygZOkrrrzH8Iptph_DZ05DU_dSNXFosdnJdsX7ng&s=10"
+                    class="w-full h-48 object-cover">
+
+                <div class="p-5">
+
+                    <span class="text-green-500 text-xs font-bold">
+                        EPISODE 04
+                    </span>
+
+                    <h3 class="font-bold mt-2">
+                        UNITE! THE MEGAZORD
+                    </h3>
+
+                    <p class="text-gray-500 text-xs mt-2">
+                        Season 1 • Episode 4
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="villain" class="py-24">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid lg:grid-cols-2 gap-10 items-center">
+
+            <div class="ani">
+
+                <p class="text-red-500 tracking-[5px] font-bold">
+                    MAIN VILLAIN
+                </p>
+
+                <h2 class="text-5xl font-black mt-3">
+                    THE <span class="text-red-500">DAI SHI</span>
+                </h2>
+
+                <p class="text-gray-400 leading-8 mt-6">
+                    A powerful enemy determined to conquer Earth.
+                    The Rangers must unite their strength and courage
+                    to stop the growing threat.
+                </p>
+
+                <button class="mt-7 bg-red-600 hover:bg-red-700 px-7 py-3 font-bold transition">
+                    LEARN MORE →
+                </button>
+
+            </div>
+
+
+            <div class="bg-gradient-to-br from-red-950 to-black border border-red-700 p-10 text-center glow card">
+
+                <div class="text-9xl mb-5">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfPmRx8Z5GY2TE1Jl6yfEgIz8auQtgvba4xK9lyy2_8w&s=10">
+                </div>
+
+                <h3 class="text-3xl font-black">
+                    THE DARK FORCE
+                </h3>
+
+                <p class="text-gray-400 mt-4">
+                    "Earth will fall before the power of darkness."
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="gallery" class="py-24 bg-[#050b12] border-y border-gray-800">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <p class="text-red-500 tracking-[5px] font-bold ani">
+            GALLERY
+        </p>
+
+        <h2 class="text-4xl font-black mt-3 mb-10 ani">
+            MOMENTS FROM <span class="text-red-500">MEGA FORCE</span>
+        </h2>
+
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1RpahT1qR0DdvTw0D_CAKrz47yfGeagnpFUase6V-vg&s"
+                class="h-56 w-full object-cover hover:scale-105 transition duration-500 card">
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGpCjupomI0XnSkCjSq-756-V03JsLK2wihIRCKJfikA&s=10"
+                class="h-56 w-full object-cover hover:scale-105 transition duration-500 card">
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWQ9jMC59EWS9eMCAgJNGJlr-QAz91F2lChsFdwpGgKQ&s=10"
+                class="h-56 w-full object-cover hover:scale-105 transition duration-500 card">
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsQ58_LWVLJTGQIZUF9fVKUL77pVBUfmuJkcBbNglAWg&s=10"
+                class="h-56 w-full object-cover hover:scale-105 transition duration-500 card">
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRU5tV2QorYIyY1fPVGqXOqJ1EbmgIW_QHf0dEn-qSnQ&s=10"
+                class="h-56 w-full object-cover hover:scale-105 transition duration-500 card">
+
+        </div>
+
+    </div>
+
+</section>
+<section id="news" class="py-24">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <p class="text-red-500 tracking-[5px] font-bold ani">
+            NEWS & UPDATES
+        </p>
+
+        <h2 class="text-4xl font-black mt-3 mb-12" ani>
+            LATEST NEWS
+        </h2>
+
+
+        <div class="grid md:grid-cols-3 gap-7">
+
+
+            <article class="bg-[#0b1118] border border-gray-800 hover:border-red-500 transition card">
+
+                <div class="h-48 bg-gradient-to-br from-red-900 to-black flex items-center justify-center">
+
+                    <span class="text-7xl">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWQ9jMC59EWS9eMCAgJNGJlr-QAz91F2lChsFdwpGgKQ&s=10">
+                    </span>
+
+                </div>
+
+                <div class="p-6">
+
+                    <p class="text-red-500 text-xs">
+                        MAY 12, 2014
+                    </p>
+
+                    <h3 class="text-xl font-bold mt-3">
+                        Power Rangers Mega Force Returns
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-3 leading-6">
+                        Discover the latest adventures and
+                        missions of the Mega Force team.
+                    </p>
+
+                    <a href="#" class="text-red-500 text-sm mt-5 inline-block">
+                        READ MORE →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="bg-[#0b1118] border border-gray-800 hover:border-blue-500 transition card">
+
+                <div class="h-48 bg-gradient-to-br from-blue-900 to-black flex items-center justify-center">
+
+                    <span class="text-7xl">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT___99PYnEm67baPlMghZnaPVYRcM2F1dnyl_7p7x9MQ&s=10">
+                    </span>
+
+                </div>
+
+                <div class="p-6">
+
+                    <p class="text-blue-500 text-xs">
+                        APR 28, 2014
+                    </p>
+
+                    <h3 class="text-xl font-bold mt-3">
+                        New Megazord Unveiled
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-3 leading-6">
+                        The Rangers reveal a powerful new
+                        weapon for their next battle.
+                    </p>
+
+                    <a href="#" class="text-blue-500 text-sm mt-5 inline-block">
+                        READ MORE →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="bg-[#0b1118] border border-gray-800 hover:border-yellow-500 transition card">
+
+                <div class="h-48 bg-gradient-to-br from-yellow-900 to-black flex items-center justify-center">
+
+                    <span class="text-7xl">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvzxl4agFm8Sd64R6YUD1uWeMFAtwxvJW5I6aIt0xNvw&s=10">
+                    </span>
+
+                </div>
+
+                <div class="p-6">
+
+                    <p class="text-yellow-400 text-xs">
+                        APR 15, 2014
+                    </p>
+
+                    <h3 class="text-xl font-bold mt-3">
+                        Behind The Scenes
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-3 leading-6">
+                        Go behind the scenes and discover
+                        how the Rangers' world was created.
+                    </p>
+
+                    <a href="#" class="text-yellow-400 text-sm mt-5 inline-block">
+                        READ MORE →
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="contact" class="py-24  content" style="background-image:url('images/img.jfif'); background-size:100% 100%;">
+
+    <div class="max-w-4xl mx-auto px-6 text-center ani">
+
+        <p class="text-red-500 tracking-[7px] font-bold" style="text-shadow:1px 2px 2px white">
+            ARE YOU READY?
+        </p>
+
+        <h2 class="text-5xl md:text-6xl font-black mt-5">
+            JOIN THE FORCE
+        </h2>
+
+        <p class="text-gray-400 mt-6">
+            Stand together. Fight together. Protect the world.
+        </p>
+
+        <button class="mt-8 bg-red-600 hover:bg-red-700 px-10 py-4 font-black transition glow">
+            JOIN NOW ss
+        </button>
+
+    </div>
+
+</section>
+<footer class="bg-black border-t border-red-600 py-12">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid md:grid-cols-3 gap-10 items-center">
+
+            <div>
+
+                <img src="https://static.wikia.nocookie.net/powerrangers/images/f/f5/Power_Rangers_Super_Megaforce_logo2.png/revision/latest?cb=20201211055313" class="w-28">
+
+            </div>
+
+
+            <div class="flex justify-center gap-7 text-gray-400">
+
+                <a href="#" class="hover:text-red-500">YouTube</a>
+                <a href="#" class="hover:text-red-500">Instagram</a>
+                <a href="#" class="hover:text-red-500">Facebook</a>
+                <a href="#" class="hover:text-red-500">X</a>
+
+            </div>
+
+
+            <div class="text-right">
+
+                <p class="text-xs text-gray-500">
+                    FIVE RANGERS
+                </p>
+
+                <p class="text-xs text-red-500 mt-2">
+                    ONE MISSION • MEGA FORCE
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="border-t border-gray-800 mt-10 pt-6 text-center">
+
+            <p class="text-xs text-gray-600">
+                © 2026 Power Rangers Mega Force — Fan-made practice website.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
